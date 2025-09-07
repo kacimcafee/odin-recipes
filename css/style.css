@@ -1,0 +1,19 @@
+/*body needs to be lighter and less "dirty"*/
+body {
+    background-color: #dfdcd4;
+}
+
+/*h1 needs to be bigger and bolder, use different font*/
+h1 {font-family: serif;
+    color: #302d28;
+}
+
+h3 {font-family: "Futura", monospace;
+    color: #302d28;
+}
+
+/*change size, too large*/
+p b {font-family: "Futura", monospace;
+    color: #302d28
+
+}
