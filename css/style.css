@@ -1,5 +1,7 @@
-/*body needs to be lighter and less "dirty"*/
-body {
+/*UI*/
+html, body {
+    height: 100%;
+    margin: 0;
     background-color: #dfdcd4;
 }
 
@@ -12,8 +14,176 @@ h3 {font-family: "Futura", monospace;
     color: #302d28;
 }
 
-/*change size, too large*/
+/*change size, too large -- maybe change serif font*/
 p b {font-family: "Futura", monospace;
-    color: #302d28
+    color: #302d28;
 
+
+
+}
+
+
+
+
+/*LANDING PAGE*/
+
+.title-container {
+    display: flex;
+    justify-content: center;
+} 
+
+.recipes-container {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+
+
+
+
+/*ALL RECIPES*/
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display:flex;
+    justify-content:center;
+}
+
+/*correct layout later*/
+.ingredients {
+    display: flex;
+    justify-content: center;
+}
+
+.directions {
+    display: flex;
+    justify-content: center;
+}
+
+.home-link{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*APPLES PAGE*/
+
+.apples-image {
+    display: flex;
+    justify-content: center;
+}
+
+.apples-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*GRAVLAX PAGE*/
+
+.gravlax-image {
+    display: flex;
+    justify-content: center;
+}
+
+.gravlax-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*STEW PAGE*/
+
+.stew-image {
+    display: flex;
+    justify-content: center;
+}
+
+.stew-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*SKYR PAGE*/
+
+.skyr-image {
+    display: flex;
+    justify-content: center;
+}
+
+.skyr-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*MEAD PAGE*/
+
+.mead-image {
+    display: flex;
+    justify-content: center;
+}
+
+.mead-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*HERRING PAGE*/
+
+.herring-image {
+    display: flex;
+    justify-content: center;
+}
+
+.herring-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*SWEET ROLL PAGE*/
+
+.rolls-image {
+    display: flex;
+    justify-content: center;
+}
+
+.rolls-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/*PORRIDGE PAGE*/
+
+.porridge-image {
+    display: flex;
+    justify-content: center;
+}
+
+.porridge-image img {
+    max-width: 80%;
+    height: auto;
 }
