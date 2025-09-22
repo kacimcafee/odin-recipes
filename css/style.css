@@ -2,15 +2,19 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-color: #dfdcd4;
+    color: #2b2828;
+    font-size: 1rem;
+    background-color: #f5edd7;
 }
 
 /*h1 needs to be bigger and bolder, use different font*/
 h1 {font-family: serif;
+    font-size: 2.5rem;
     color: #302d28;
 }
 
 h3 {font-family: "Futura", monospace;
+    font-size: 1.5rem;
     color: #302d28;
 }
 
@@ -27,12 +31,12 @@ p b {font-family: "Futura", monospace;
 
 /*LANDING PAGE*/
 
-.title-container {
+.landing-title {
     display: flex;
     justify-content: center;
 } 
 
-.recipes-container {
+.landing-recipes {
     display: flex;
     justify-content: space-evenly;
 } 
