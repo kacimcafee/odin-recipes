@@ -1,12 +1,3 @@
-### This project focuses on the following skills:
--
--
--
--
-
-
-
-
 ### Photo Citations:
 
 # Creator: tomateoignons
@@ -57,6 +48,29 @@
   URL: [https://www.pexels.com/photo/apples-coated-in-caramel-and-nuts-4823094/]
   Date Accessed: 9/5/25
 
+  # Creator: Erik Christov
+  Name: "viking-horn.jpg"
+  Description: "man with viking horn"
+  URL: [https://www.pexels.com/photo/man-in-warrior-clothes-blowing-horn-by-waterfall-9935713/]
+  Date Accessed: 9/22/25
+
+  # Creator: Ramon Perucho 
+  Name: "viking-building.jpg"
+  Description: "image of viking building"
+  URL: [https://www.pexels.com/photo/borgund-stave-church-in-norway-19593820/]
+  Date Accessed: 9/22/25
+
+  # Creator: Gabriele Niek 
+  Name: "norway.jpg"
+  Description: "Norwegian landscape"
+  URL: [https://www.pexels.com/photo/a-mountain-range-with-a-small-house-in-the-middle-17982765/]
+  Date Accessed: 9/22/25
+
+  # Creator: Erik Mclean 
+  Name: "weystone.jpg"
+  Description: "Image of traditional weystone"
+  URL: [https://www.pexels.com/photo/aged-nordic-runestone-located-on-blooming-field-in-countryside-5023727/]
+  Date Accessed: 9/22/25
 
 
 
