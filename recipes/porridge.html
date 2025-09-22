@@ -1,15 +1,17 @@
 
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en">             
 
     <head>
-        <meta charset="UTF8">
+        <meta charset="UTF-8">
         <link href="../css/style.css" rel="stylesheet">
         <title>Viking Barley Porridge Recipe</title>
     </head>
 
     <body>
-        <div class="recipe-page">
+
+        <main class="recipe-page">
 
             <header class="title">
                 <h1>Viking Barley Porridge</h1>
@@ -19,15 +21,15 @@
                 <img src="../images/porridge.jpg" alt="A hearty bowl of porridge, drizzled in honey and topped with fresh fruit and nuts">
             </figure>
             
-            <!--a11y -add screenreader definitions for foreign words-->
-            <section class="description">
-                <p>Nordic barley porridge, known as <em>byggrynsgrøt</em> in Norway, is a traditional, slow-cooked dish made from pearl barley simmered in milk until tender and creamy.
+            <section class="description" aria-label="Recipe Description">  <p>Nordic barley porridge, known as <abbr title="byggrynsgrøt: a Nordic-style porridge">
+                <em><span lang="no">byggrynsgrøt</span></em> </abbr> in Norway, is a traditional, slow-cooked dish made from pearl barley simmered in milk until tender and creamy.
                 Naturally nutty and satisfying, this rustic porridge has been a staple in Scandinavian kitchens for centuries, offering both comfort and nourishment with every spoonful.
                 </p>
+               
             </section>
             
-            <section class="ingredients">
-                <h3>Ingredients</h3>
+            <section class="ingredients" aria-labelledby="ingredients-heading">
+                <h3 id="ingredients-heading">Ingredients</h3>
                     <ul>
                         <li>1 cup pearl barley</li>
                         <li>4 cups water</li>
@@ -38,21 +40,21 @@
                     </ul>
             </section>
 
-            <section class="directions">
-                <h3>Directions</h3>   
+            <section class="directions" aria-labelledby="directions-heading">
+                <h3 id="directions-heading">Directions</h3>
                     <ol>
-                        <li>In a large saucepan, combine the pearl barley, water, and salt. 
-                        Bring to a boil,then reduce the heat to low and simmer for 45-60 minutes, or until the barley is tender and most of the liquid has been absorbed.</li>
+                        <li>In a large saucepan, combine the pearl barley, water, and salt
+                        Bring to a boil,then reduce the heat to low and simmer for 45-60 minutes, or until the barley is tender and most of the liquid has been absorbed</li>
                         <li>Stir in the butter and milk or cream, and continue to cook for an additional 5-10 minutes, or until the porridge reaches your desired consistency.
-                        Sweeten with honey or brown sugar, if desired, and serve hot.</li>
+                        Sweeten with honey or brown sugar, if desired, and serve hot</li>
                         </ol>
             </section>
 
-            <nav class="home-link">
+            <nav class="home-link" aria-label="Return to Home Page">
                 <a href="../index.html">Home</a>
             </nav>
-            
-        </div>
+
+        </main>
 
     </body>
 

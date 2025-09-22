@@ -1,31 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">        <!--correct image layout in CSS-->  
+                        <!--add in aria to each step, EX:
+                            <ol>
+                                <li>
+                                <section aria-labelledby="step1-heading">
+                                    <h4 id="step1-heading">Step 1: Heat the milk</h4>
+                                    <p>Add the full gallon of skim milk, the vanilla bean, and the vanilla bean caviar to a large, thick-bottomed pot. 
+                                    Slowly bring to a steady simmer over medium-high heat, stirring frequently to prevent scalding, about 15–20 minutes.</p>
+                                </section>
+                                </li>
+
+                                <li>
+                                <section aria-labelledby="step2-heading">
+                                    <h4 id="step2-heading">Step 2: Mix the cultures</h4>
+                                    <p>Whisk together the Skyr and 1 cup of warm milk until smooth. Combine rennet and cool water, stir into the pot, then cover with a lid and towel. 
+                                    Keep warm for 12 hours.</p>
+                                </section>
+                                </li>-->
+                                
+                        <!-- add in figcaption for recipe pages-->
     <head>
-        <meta charset="UTF8">
+        <meta charset="UTF-8">
         <link href="css/style.css" rel="stylesheet">
         <title>Odin Recipes</title>
     </head>
 
     <body>
-        <nav class="landing-title">
+        <header class="landing-title">
             <h1>Odin Recipes</h1>
-        </nav>
+        </header>
 
-        <nav class="landing-recipes">
-            <a href="recipes/stew.html">Viking Stew</a>
-            <a href="recipes/herring.html">Pickled Herring</a>
-            <a href="recipes/gravlax.html">Gravlax</a>
-            <a href="recipes/skyr.html">Skyr</a>
-            <a href="recipes/porridge.html">Barley Porridge</a>
-            <a href="recipes/apples.html">Salted Caramel Apples</a>
-            <a href="recipes/sweet-rolls.html">Sweet Rolls</a>
-            <a href="recipes/mead.html">Mead</a>
+        <nav class="landing-recipes" aria-label="Main recipe navigation">
+            <ul>
+                <li><a href="recipes/stew.html">Viking Stew Recipe</a></li>
+                <li><a href="recipes/herring.html">Pickled Herring Recipe</a></li>
+                <li><a href="recipes/gravlax.html">Gravlax Recipe</a></li>
+                <li><a href="recipes/skyr.html">Skyr Recipe</a></li>
+                <li><a href="recipes/porridge.html">Barley Porridge Recipe</a></li>
+                <li><a href="recipes/apples.html">Salted Caramel Apples Recipe</a></li>
+                <li><a href="recipes/sweet-rolls.html">Sweet Rolls Recipe</a></li>
+                <li><a href="recipes/mead.html">Mead Recipe</a></li>
+            </ul>
         </nav>
         
-        <figure class="viking-building">
-                <img src="../odin-recipes/images/viking-building.jpg" alt="An elaborate Nordic-stlye building in front of misty green mountains">
-        </figure>
+       <div class="landing-page-images">
+            <figure>
+                <img src="images/viking-horn.jpg" alt="Man blowing on a viking horn by a waterfall">
+            </figure>
+
+            <figure>
+                <img src="images/viking-building.jpg" alt="An elaborate Nordic-style building in front of misty green mountains">
+            </figure>
+
+            <figure>
+                <img src="images/norway.jpg" alt="Moody, drizzling foothills in Norway">
+            </figure>
+
+            <figure>
+                <img src="images/weystone.jpg" alt="Colorfully painted Nordic weystone in field">
+            </figure>
+
+        </div>
+
+        
 
     </body>
 

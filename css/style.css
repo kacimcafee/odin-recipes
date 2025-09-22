@@ -36,11 +36,28 @@ p b {font-family: "Futura", monospace;
     justify-content: center;
 } 
 
-.landing-recipes {
-    display: flex;
-    justify-content: space-evenly;
-} 
+.landing-recipes ul {
+    display: flex;              /* lay out links horizontally */
+    justify-content: space-evenly; /* spread across the container */
+    list-style: none;           /* remove bullets */
+    padding: 0;                 /* remove default padding */
+    margin: 0;                  /* remove default margin */
+}
 
+.landing-recipes li a {
+    text-decoration: none;      /* optional: remove underline */
+    color: inherit;  
+}
+
+.landing-page-images {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page-images img {
+    max-width: 80%;
+    height: auto;
+}
 
 
 

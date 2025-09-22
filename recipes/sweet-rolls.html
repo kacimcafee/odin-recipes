@@ -1,15 +1,16 @@
 
 <!DOCTYPE html>
-<html lang="en">
+    
+    <html lang="en">            
 
     <head>
-        <meta charset="UTF8">
+        <meta charset="UTF-8">
         <link href="../css/style.css" rel="stylesheet">
         <title>Sweet Rolls Recipe</title>
     </head>
 
     <body>
-        <div class="recipe-page">
+        <main class="recipe-page">
 
             <header class="title">
                 <h1>Nordic Sweet Rolls</h1>
@@ -20,70 +21,77 @@
             </figure>
             
                 
-            <section class="description">
-                <!-- a11y - add screenreader definitions for foreign words-->
-                <p>Known as <em>kanelbullar</em> in Sweden and <em>kanelsnurrer</em> in Norway, these yeasted pastries filled with buttery cinnamon sugar and often topped with a delicate glaze. 
-                These beautifully twisted rolls are a beloved part of Nordic <em>fika</em> culture: a daily ritual of coffee and something sweet.</p>
+            <section class="description" aria-label="Recipe Description">
+                <p> Known as <span lang="sv" aria-label="Swedish cinnamon roll">kanelbullar</span> in Sweden and 
+                <span lang="no" aria-label="Norwegian cinnamon roll">kanelsnurrer</span> in Norway, these yeasted pastries filled with buttery cinnamon sugar and often topped with a delicate glaze. 
+                These beautifully twisted rolls are a beloved part of Nordic 
+                <span lang="sv" aria-label="Swedish coffee break tradition">fika</span> culture: a daily ritual of coffee and something sweet.
+                </p>
             </section>
 
-            <section class="ingredients">
-                <h3>Ingredients</h3>
-                    <p><b>Dough:</b></p>
+            <section class="ingredients" aria-labelledby="ingredients-heading">
+                <h3 id="ingredients-heading">Ingredients</h3>
+                <section class="dough-ingredients" aria-labelledby="dough-ingredients-heading">
+                    <h4 id="dough-ingredients-heading">Dough:</h4>
                         <ul>
                             <li>AP Flour 1 1/2 cups</li>
-                            <li>1/2 tsp</li>
+                            <li>1/2 tsp salt</li>
                             <li>Whole Milk 	1 cup + 1 cup</li>
-                            <li>Eggs 	3 each</li>
+                            <li>Eggs 3 each</li>
                             <li>Butter (melted) 6 TBSP (3oz)</li>
                             <li>Vegetable Oil as needed</li>
                         </ul>
+                </section>
+
+                <section class="icing-ingredients" aria-labelledby="icing-ingredients-heading">
+                    <h4 id="icing-ingredients-heading">Icing:</h4>
+                        <ul>    
+                            <li>Confectioner’s Sugar 2 cups</li>
+                            <li>Water 2 TBSP</li>
+                            <li>Vanilla Extract 1/4 tsp</li>
+                        </ul>
+                </section>
             </section>
 
-            <section class="ingredients">
-                <p><b>Icing:</b></p>
-                    <ul>    
-                        <li>Confectioner’s Sugar 2 cups</li>
-                        <li>Water 2 TBSP</li>
-                        <li>Vanilla Extract 1/4 tsp</li>
-                    </ul>
-            </section>
+            <section class="directions" aria-labelledby="directions-heading">
+                <h3 id="directions-heading">Directions</h3>  
+                    <section class="dough-directions" aria-labelledby="dough-directions-heading">
+                        <h4 id="dough-directions-heading">Dough:</h4>
+                            <ol>
+                                <li>In a medium mixing bowl, combine the flour and salt, and whisk them to combine</li>
+                                <li>Whisk together the 3 eggs and 1 cup of the milk; mix this into the flour until no lumps remain, and the batter is smooth</li>
+                                <li>Slowly pour in the remaining cup of milk along with the melted butter,
+                                while continually whisking until completely combined (the batter will be extremely liquidy). 
+                                Leave the bowl out on the counter for about 30 minutes so that the ingredients can warm up to room temperature. Meanwhile, preheat your oven to <span aria-label="five hundred degrees Fahrenheit">500°F</span></li>
+                                <li>Place the mini bundt pan in the oven for a few minutes to heat up, then transfer your batter into a liquid measuring cup for easy pouring. 
+                                Have a little vegetable oil, and a pastry brush handy too, as the next step should be performed as quickly as possible</li>
+                                <li>Using oven mitts, or kitchen towels, quickly open the oven door and slide out the now hot bundt pan. 
+                                Use the pastry brush to coat the insides with a thin layer of oil and then pour the popover batter into each of the outside moulds, all the way to the top. 
+                                Carefully slide the pan back into the oven and set a timer for 30 minutes. Resist the urge to open the oven door again before then</li>
+                                <li>After 30 minutes, open the door and check the popovers. We’re looking for a nice golden brown and hard, crispy top. 
+                                Once achieved, you can reduce the oven temperature to <span aria-label="three hundred degrees Fahrenheit">300°F</span>and let them bake for 10 more minutes before pulling them out 
+                                (if after the initial 30 minutes the tops are soft and depress easily when touched, close the door and let them bake for an additional 5 to 10 minutes at 500F before dropping the oven temperature to 300F).</li>
+                                <li>Remove the pan from the oven and ‘pop’ out the pastries immediately, being very careful not to burn your fingers in the process (stuff is hot!). 
+                                The oil we brushed on earlier should help the Sweetrolls release easily from the pan. 
+                                Flip them upside down and press on them gently to help them sit flat</li>
+                                </ol>
+                    </section>
 
-            <section class="directions"></div>
-                <h3>Directions</h3>   
-                    <p><b>Dough:</b></p>
-                        <ol>
-                            <li> In a medium mixing bowl, combine the flour and salt, and whisk them to combine.</li>
-                            <li>Whisk together the 3 eggs and 1 cup of the milk; mix this into the flour until no lumps remain, and the batter is smooth.</li>
-                            <li>Slowly pour in the remaining cup of milk along with the melted butter,
-                             while continually whisking until completely combined (the batter will be extremely liquidy). 
-                            Leave the bowl out on the counter for about 30 minutes so that the ingredients can warm up to room temperature. Meanwhile, preheat your oven to 500F.</li>
-                            <li>Place the mini bundt pan in the oven for a few minutes to heat up, then transfer your batter into a liquid measuring cup for easy pouring. 
-                            Have a little vegetable oil, and a pastry brush handy too, as the next step should be performed as quickly as possible.</li>
-                            <li>Using oven mitts, or kitchen towels, quickly open the oven door and slide out the now hot bundt pan. 
-                            Use the pastry brush to coat the insides with a thin layer of oil and then pour the popover batter into each of the outside moulds, all the way to the top. 
-                            Carefully slide the pan back into the oven and set a timer for 30 minutes. Resist the urge to open the oven door again before then.</li>
-                            <li>After 30 minutes, open the door and check the popovers. We’re looking for a nice golden brown and hard, crispy top. 
-                            Once achieved, you can reduce the oven temperature to 300F and let them bake for 10 more minutes before pulling them out 
-                            (if after the initial 30 minutes the tops are soft and depress easily when touched, close the door and let them bake for an additional 5 to 10 minutes at 500F before dropping the oven temperature to 300F).</li>
-                            <li>Remove the pan from the oven and ‘pop’ out the pastries immediately, being very careful not to burn your fingers in the process (stuff is hot!). 
-                            The oil we brushed on earlier should help the Sweetrolls release easily from the pan. 
-                            Flip them upside down and press on them gently to help them sit flat.</li>
+                    <section class="icing-directions" aria-labelledby="icing-directions-header">
+                        <h4 id="icing-directions-header">Icing:</h4>
+                            <ol>
+                                <li>Combine all ingredients in a mixing bowl and whisk until smooth</li>
+                                <li>Lightly glaze sweet rolls once they have cooled enough. Now no lollygagging; enjoy fresh!</li>
                             </ol>
+                    </section>
+
             </section>
 
-            <section class="directions">
-                <p><b>Icing:</b></p>
-                    <ol>
-                        <li>Combine all ingredients in a mixing bowl and whisk until smooth.</li>
-                        <li>Lightly glaze sweet rolls once they have cooled enough. Now no lollygagging; enjoy fresh!</li>
-                    </ol>
-            </section>
-
-            <nav class="home-link">
+            <nav class="home-link" aria-label="Return to Home Page">
                 <a href="../index.html">Home</a>
             </nav>
 
-        </div>
+        </main>
 
     </body>
 
