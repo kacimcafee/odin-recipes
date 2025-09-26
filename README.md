@@ -1,3 +1,10 @@
+## TO DO:
+    [ ] fix layout
+        [ ] home page
+        [ ] recipe pages
+
+
+
 ### Photo Citations:
 
 # Creator: tomateoignons
