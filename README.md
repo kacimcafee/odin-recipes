@@ -1,8 +1,13 @@
-## TO DO:
-    [ ] fix layout
-        [ ] home page
-        [ ] recipe pages
+## Purpose of Project
+    This was a fun project I created during my early days at The Odin Project; as any good coder, the recipes had to be viking-related. 
 
+    Since this is my first "real" coding project there is much room for growth, but I believe this project showcases my aptitude for learning how to be a professional and ethical programmer in the future. 
+    
+    My goals when creating this site were to practice accessible coding/markup through semantic HTML and CSS, practice proper documentation and citation, and practice CSS/flexbox as it was my weakest skill at this point. 
+    
+    I purposefully avoided ARIA (no ARIA is better than bad ARIA) with the intention of creating a separate project in the future to really hone those skills.
+
+    I hope you enjoy these Nordic recipes!
 
 
 ### Photo Citations:
